@@ -85,7 +85,22 @@ public class Welcome {
         double kilometers = miles * KILOMETERS_PER_MILES;
         System.out.println("Kilometers: " + kilometers);
         
+        System.out.println(Math.pow(2, 3)); // Displays 8.0 
+        System.out.println(Math.pow(4, 0.5)); // Displays 2.0
+        System.out.println(Math.pow(2.5, 2)); // Displays 6.25
+        System.out.println(Math.pow(2.5, -2)); // Displays 0.16
+        System.out.println(Math.pow(2, 3.5));
         
+        //Suppose m and r are integers. Write a Java expression for mr^2 to obtain a floating point result.
+        int m, r;
+        m = 3; r = 3;
+        System.out.println(m * Math.pow(r, 2));
+        
+        //Suppose you and your friends are going to meet in 20 days. What day is in 20 days if today is monday?
+        //(1 + 20) % 7 = 21 % 7 = 0, which is a sunday
+        
+        //Suppose you and mates are going to meet in 8 days. What day is in 8 days if today is thursday?
+        //(4 + 8) % 7 = 12 % 7 = 5, which is a friday
     }
 }
         //Show syntax Error or Compile Error
